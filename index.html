@@ -54,6 +54,11 @@ section{padding:88px 0}
 .amount{margin:8px 0;font:400 clamp(3.6rem,9vw,6.4rem) "DM Serif Display";line-height:1}
 .amount small{font:600 .2em "Noto Sans JP"}
 .price-row{display:flex;justify-content:space-around;gap:22px;margin-top:24px;padding-top:23px;border-top:1px solid rgba(255,255,255,.26);line-height:1.9}
+.set-plan{margin:28px auto 8px;max-width:560px;padding:22px 24px 20px;border-radius:22px;background:rgba(255,255,255,.96);color:var(--deep);box-shadow:0 14px 34px rgba(76,20,44,.22);position:relative}
+.set-plan .badge{display:inline-block;margin-bottom:8px;padding:5px 14px;border-radius:999px;background:linear-gradient(90deg,var(--gold),#e0c47d);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.12em}
+.set-plan b{display:block;font-size:1.15rem;letter-spacing:.08em}
+.set-plan .set-amount{margin-top:3px;font:400 clamp(2.8rem,7vw,4.6rem) "DM Serif Display";line-height:1}
+.set-plan .set-amount small{font:600 .22em "Noto Sans JP";margin-left:4px}
 
 .flow-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
 .flow-card{display:grid;grid-template-columns:48% 52%;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:28px;box-shadow:0 14px 38px rgba(116,39,71,.07);min-height:310px}
@@ -208,11 +213,13 @@ section{padding:66px 0}
 
 <section id="price" class="price">
   <div class="wrap">
-    <div class="heading"><small>PRICE</small><h2>料金</h2><p>きれいな定着を目指す2回セットです。</p></div>
+    <div class="heading"><small>PRICE</small><h2>料金</h2></div>
     <div class="price-box">
-      <div>リップアートメイク 2回セット</div>
-      <div class="amount">125,000<small>円（税込）</small></div>
-      <div class="price-row"><div><b>3回目以降</b><br>44,000円（税込）</div><div><b>ご予約</b><br>当院のお電話にて受付</div></div>
+      <div>リップアートメイク</div>
+      <div class="amount">44,000<small>円（税込）／1回</small></div>
+      <div class="set-plan"><span class="badge">RECOMMENDED</span><b>2回セット</b><div class="set-amount">85,000<small>円（税込）</small></div></div>
+      <div class="price-row"><div><b>3回目以降</b><br>44,000円（税込）</div></div>
+      <div class="price-row"><div><b>ご予約</b><br>当院のお電話にて受付</div></div>
     </div>
   </div>
 </section>
